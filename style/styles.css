@@ -38,6 +38,8 @@ section {
   height: 70px;
 }
 
+/* Olika flexboxar */
+
 .flex-start {
   justify-content: flex-start;
   align-items: flex-end;
@@ -62,6 +64,13 @@ section {
   justify-content: space-evenly;
   align-items: center;
 }
+
+.flex-grow {
+    justify-content: center;
+    align-items: center;
+}
+
+/* mer css i vissa rutor */
 
 .item-end {
   align-self: flex-end;
