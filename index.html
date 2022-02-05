@@ -1,48 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/styles.css" />
     <title>Flexbox-project</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <main>
-        <section>
+      <section>
+        <h1>FLEXBOX-PROJECT</h1>
+        <h2>Lesson 5</h2>
 
-            <h1>FLEXBOX-PROJECT</h1>
-            <h2>Lesson 5</h2>
-
-
-            <div class="card">
-
-                <div class="card__1">
-                    <div class="first-box">1</div>
-                    <div class="first-box">2</div>
-                    <div class="first-box">3</div>
-                </div>
-                <div class="card--2">
-                    <div class="second-box">1</div>
-                    <div class="second-box">2</div>
-                    <div class="second-box">3</div>
-                </div>
-                <div class="card--3">
-                </div>
-                <div class="card--4">
-                </div>
-                <div class="card--5">
-                </div>
-                <div class="card--6">
-
-                </div>
-            </div>
-           
-        </section>
+        <div class="container">
+          <div class="card flex-start">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+          </div>
+          <div class="card flex-stretch">
+            <div class="box item-stretch">1</div>
+            <div class="box item-stretch">2</div>
+            <div class="box item-stretch">3</div>
+          </div>
+          <div class="card flex-end">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+          </div>
+          <div class="card flex-self">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box item-end">3</div>
+          </div>
+          <div class="card flex-evenly">
+            <div class="box item-stretch">1</div>
+            <div class="box">2</div>
+            <div class="box item-stretch">3</div>
+          </div>
+          <div class="card flex-center">
+            <div class="box item-grow-1">1</div>
+            <div class="box item-grow-2">2</div>
+            <div class="box item-grow-1">3</div>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
