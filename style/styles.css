@@ -1,6 +1,5 @@
 section {
-  height: 100vh;
-  background-color: rgb(235, 189, 189);
+  background-color: rgb(189, 212, 194);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,21 +13,21 @@ section {
   justify-content: center;
   width: 1152px;
   height: 700px;
-  background: #370617;
+  background: #4b793f;
   padding-top: 50px;
 }
 
 .card {
   width: 468px;
   height: 160px;
-  background: #8df406;
+  background: #ebf1e3;
   border-radius: 12px;
   margin: 10px;
   display: flex;
 }
 
 .box {
-  background-color: rgb(39, 27, 51);
+  background-color: rgb(31, 51, 27);
   margin: 10px;
   color: cadetblue;
   display: flex;
